@@ -1,6 +1,4 @@
 [submodule "cashtrack-backend"]
-	path = cashtrack-backend
 	url = https://github.com/krystianschmidt/cashtrack-backend.git
 [submodule "cashtrack-frontend"]
-	path = cashtrack-frontend
 	url = https://github.com/krystianschmidt/cashtrack-frontend.git
