@@ -1,0 +1,6 @@
+[submodule "cashtrack-backend"]
+	path = cashtrack-backend
+	url = .\\cashtrack-backend\\
+[submodule "cashtrack-frontend"]
+	path = cashtrack-frontend
+	url = .\\cashtrack-frontend\\
