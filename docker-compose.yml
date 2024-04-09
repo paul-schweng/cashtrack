@@ -4,14 +4,14 @@ services:
     image: cashtrack-backend:latest
     build:
         context: cashtrack-backend
-        dockerfile: cashtrack-backend/Dockerfile
+        dockerfile: Dockerfile
     container_name: cashtrack-backend
 
   frontend:
     image: cashtrack-frontend:latest
     build:
         context: cashtrack-frontend
-        dockerfile: cashtrack-frontend/Dockerfile
+        dockerfile: Dockerfile
     container_name: cashtrack-frontend
     ports:
       - "8080:6666"
