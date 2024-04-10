@@ -22,7 +22,8 @@ jobs:
         run: docker-compose build
 
       - name: Save Docker images as artifacts
-        run: docker save cashtrack-backend:latest cashtrack-frontend:latest -o docker_images.tar
+        run: |
+          docker save cashtrack-backend:latest cashtrack-frontend:latest | gzip > docker_images.tar.gz
 
       - name: Upload Docker images as artifact
         uses: actions/upload-artifact@v2
